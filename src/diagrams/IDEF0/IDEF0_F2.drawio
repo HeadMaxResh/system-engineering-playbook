@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
+  <diagram name="Страница-1" id="zP5xZk6h0wBraP6d9LD_">
+    <mxGraphModel dx="2031" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;A2 — Анализ фотографий (CV)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="270" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Анализ Изображений" vertex="1">
+          <mxGeometry height="160" width="320" x="240" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A2" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LDYLfBLHzo3--FLlxCzB-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="I1:Фото квартиры" vertex="1">
+          <mxGeometry height="30" width="120" x="-20" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="LDYLfBLHzo3--FLlxCzB-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C1:CV-модель" vertex="1">
+          <mxGeometry height="30" width="110" x="260" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="LDYLfBLHzo3--FLlxCzB-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C2:Правила классификации" vertex="1">
+          <mxGeometry height="30" width="160" x="400" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-11" edge="1" parent="1" source="LDYLfBLHzo3--FLlxCzB-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="430" as="sourcePoint" />
+            <mxPoint x="950" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;O1:Признаки по фото(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;состояние ремонта,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;наличие мебели,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;уровень износа,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;тип интерьера)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="390" x="560" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="LDYLfBLHzo3--FLlxCzB-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="640" as="sourcePoint" />
+            <mxPoint x="370" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="M1:Python CV (PyTorch)" vertex="1">
+          <mxGeometry height="30" width="170" x="230" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="LDYLfBLHzo3--FLlxCzB-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="640" as="sourcePoint" />
+            <mxPoint x="530" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="M2:GPU" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="LDYLfBLHzo3--FLlxCzB-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="280" as="sourcePoint" />
+            <mxPoint x="600" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDYLfBLHzo3--FLlxCzB-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C3:Стандарты структуры данных" vertex="1">
+          <mxGeometry height="30" width="190" x="490" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

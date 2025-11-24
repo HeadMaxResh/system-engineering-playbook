@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
+  <diagram name="Страница-1" id="jQn3kvNFisHFzxdmn53-">
+    <mxGraphModel dx="2679" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="khss5tzLd5AquNJDSgPI-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;A2 — Анализ фотографий (CV) (декомпозиция)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="321" x="230" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-13" edge="1" parent="1" source="khss5tzLd5AquNJDSgPI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="khss5tzLd5AquNJDSgPI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Предобработка изображений" vertex="1">
+          <mxGeometry height="80" width="160" x="110" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-16" edge="1" parent="1" source="khss5tzLd5AquNJDSgPI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="khss5tzLd5AquNJDSgPI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Детекция комнат и объектов" vertex="1">
+          <mxGeometry height="80" width="160" x="490" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-18" edge="1" parent="1" source="khss5tzLd5AquNJDSgPI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="khss5tzLd5AquNJDSgPI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Классификация состояния квартиры" vertex="1">
+          <mxGeometry height="80" width="160" x="900" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-20" edge="1" parent="1" source="khss5tzLd5AquNJDSgPI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Формирование признаков по изображениям" vertex="1">
+          <mxGeometry height="80" width="160" x="1310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A 2.1" vertex="1">
+          <mxGeometry height="20" width="30" x="240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A 2.2" vertex="1">
+          <mxGeometry height="20" width="30" x="620" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A 2.3" vertex="1">
+          <mxGeometry height="20" width="30" x="1030" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A 2.4" vertex="1">
+          <mxGeometry height="20" width="30" x="1440" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="khss5tzLd5AquNJDSgPI-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-30" y="300" as="sourcePoint" />
+            <mxPoint x="-50" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="I1:Фото квартиры" vertex="1">
+          <mxGeometry height="30" width="110" x="-140" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="O1:Предобработанные изображения" vertex="1">
+          <mxGeometry height="30" width="240" x="260" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="O1:Признаки объектов и комнат" vertex="1">
+          <mxGeometry height="30" width="250" x="650" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="O1:Классификация состояния и мебели" vertex="1">
+          <mxGeometry height="30" width="250" x="1060" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="O1: Структурированные признаки по фото(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;состояние ремонта,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;наличие мебели,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;уровень износа,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;тип интерьера)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="480" x="1440" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="120" as="sourcePoint" />
+            <mxPoint x="400" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="120" as="sourcePoint" />
+            <mxPoint x="400" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.567;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="khss5tzLd5AquNJDSgPI-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="120" as="sourcePoint" />
+            <mxPoint x="680" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="120" as="sourcePoint" />
+            <mxPoint x="560" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.435;entryY=-0.051;entryDx=0;entryDy=0;entryPerimeter=0;" target="khss5tzLd5AquNJDSgPI-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="120" as="sourcePoint" />
+            <mxPoint x="680" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C1:CV-модель" vertex="1">
+          <mxGeometry height="30" width="90" x="360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="khss5tzLd5AquNJDSgPI-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="980" y="120" as="sourcePoint" />
+            <mxPoint x="1010" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C2:Правила классификации" vertex="1">
+          <mxGeometry height="30" width="190" x="885" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="khss5tzLd5AquNJDSgPI-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1390" y="120" as="sourcePoint" />
+            <mxPoint x="1290" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C3:Стандарты структуры данных" vertex="1">
+          <mxGeometry height="30" width="210" x="1285" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-32" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="826" y="570" as="sourcePoint" />
+            <mxPoint x="826" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-33" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="480" as="sourcePoint" />
+            <mxPoint x="1401.2697056361608" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.314;entryY=1.035;entryDx=0;entryDy=0;entryPerimeter=0;" target="khss5tzLd5AquNJDSgPI-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="480" as="sourcePoint" />
+            <mxPoint x="230" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.434;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" target="khss5tzLd5AquNJDSgPI-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="480" as="sourcePoint" />
+            <mxPoint x="390" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.38;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="khss5tzLd5AquNJDSgPI-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="960" y="480" as="sourcePoint" />
+            <mxPoint x="960" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.556;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" target="khss5tzLd5AquNJDSgPI-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1400" y="480" as="sourcePoint" />
+            <mxPoint x="1170" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="M1:Python CV (PyTorch)" vertex="1">
+          <mxGeometry height="30" width="160" x="740" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.061;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" target="khss5tzLd5AquNJDSgPI-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="560" as="sourcePoint" />
+            <mxPoint x="160" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khss5tzLd5AquNJDSgPI-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="M2:GPU" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
