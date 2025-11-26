@@ -5,6 +5,7 @@
 - [IDEF0](./IDEF0.md)
 - [IDEF3](./IDEF3.md)
 - [DFD](./DFD.md)
+- [BPMN](./BPMN.md)
 - [Конфигурация проекта](./md.md)
 - [Пример использования Drawio](./drawio.md)
 - [Пример использования Swagger](./swagger.md)
