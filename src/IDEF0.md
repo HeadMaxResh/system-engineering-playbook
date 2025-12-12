@@ -4,7 +4,7 @@
 
 @drawio{https://github.com/HeadMaxResh/system-engineering-playbook/blob/main/src/diagrams/IDEF0/IDEF0_F0_context.drawio}
 
-## IDEF0 - A1 — Анализ текстового описания
+## IDEF0 - A1 — NLP-анализ текста
 
 @drawio{https://github.com/HeadMaxResh/system-engineering-playbook/blob/main/src/diagrams/IDEF0/IDEF0_F1.drawio}
 
@@ -12,7 +12,7 @@
 
 @drawio{https://github.com/HeadMaxResh/system-engineering-playbook/blob/main/src/diagrams/IDEF0/IDEF0_F1_decomp.drawio}
 
-## IDEF0 - A2 — Анализ фотографий (CV)
+## IDEF0 - A2 — Анализ изображений
 
 @drawio{https://github.com/HeadMaxResh/system-engineering-playbook/blob/main/src/diagrams/IDEF0/IDEF0_F2.drawio}
 
@@ -20,7 +20,7 @@
 
 @drawio{https://github.com/HeadMaxResh/system-engineering-playbook/blob/main/src/diagrams/IDEF0/IDEF0_F2_decomp.drawio}
 
-## IDEF0 - A3 — Сбор инфраструктурных данных (Geo)
+## IDEF0 - A3 — Анализ адреса
 
 @drawio{https://github.com/HeadMaxResh/system-engineering-playbook/blob/main/src/diagrams/IDEF0/IDEF0_F3.drawio}
 
@@ -28,7 +28,7 @@
 
 @drawio{https://github.com/HeadMaxResh/system-engineering-playbook/blob/main/src/diagrams/IDEF0/IDEF0_F3_decomp.drawio}
 
-## IDEF0 - A4 — Расчёт стоимости и генерация отчёта
+## IDEF0 - A4 — Расчет рекомендованной цены
 
 @drawio{https://github.com/HeadMaxResh/system-engineering-playbook/blob/main/src/diagrams/IDEF0/IDEF0_F4.drawio}
 
