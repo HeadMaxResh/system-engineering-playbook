@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Страница-1" id="dVA1kE4zodTarKb1MnLP">
+    <mxGraphModel dx="773" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-1" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="395" y="1270" as="sourcePoint" />
+            <mxPoint x="395" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Арендодатель" vertex="1">
+          <mxGeometry height="60" width="30" x="255" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CV-сервис" vertex="1">
+          <mxGeometry height="60" width="30" x="563.5" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-4" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bsL8KadFr-UfoXjd1pLH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Выбрать и загрузить фотографии квартиры" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Отправить фото на анализ" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-7" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bsL8KadFr-UfoXjd1pLH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-8" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="260" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-9" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bsL8KadFr-UfoXjd1pLH-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="637.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Получить изображения" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-11" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bsL8KadFr-UfoXjd1pLH-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="637.5" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-13" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="bsL8KadFr-UfoXjd1pLH-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-14" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.453;entryDx=0;entryDy=0;entryPerimeter=0;" target="bsL8KadFr-UfoXjd1pLH-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-15" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bsL8KadFr-UfoXjd1pLH-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="644.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="25" width="45" x="612.5" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;[качество неудовлетво-рительное]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="548.5" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[качество удовлетво-рительное]" vertex="1">
+          <mxGeometry height="30" width="60" x="645" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-34" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bsL8KadFr-UfoXjd1pLH-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Сформировать список проблемных фото" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-21" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bsL8KadFr-UfoXjd1pLH-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="729.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-23" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bsL8KadFr-UfoXjd1pLH-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="904.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Детектировать помещения и объекты&lt;/div&gt;&lt;div&gt;(кухня, спальня, мебель, техника)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="570" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-25" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bsL8KadFr-UfoXjd1pLH-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="965" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bsL8KadFr-UfoXjd1pLH-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="1140" as="sourcePoint" />
+            <mxPoint x="330" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-40" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bsL8KadFr-UfoXjd1pLH-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Рассчитать Photo Score&lt;/div&gt;&lt;div&gt;(общая оценка набора фото)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-29" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bsL8KadFr-UfoXjd1pLH-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-31" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="260" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Проверить качество фото&lt;/div&gt;&lt;div&gt;(разрешение, размытость, освещённость)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="130" x="570" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-35" edge="1" parent="1" source="bsL8KadFr-UfoXjd1pLH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="bsL8KadFr-UfoXjd1pLH-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Перезагрузить фото" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Выполнить предобработку&lt;/div&gt;&lt;div&gt;(ресайз, нормализация)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Классифицировать состояние квартиры&lt;/div&gt;&lt;div&gt;(тип ремонта, износ, современность мебели)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="570" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Сформировать визуальные признаки&lt;/div&gt;&lt;div&gt;(структура JSON)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="1109" as="geometry" />
+        </mxCell>
+        <mxCell id="bsL8KadFr-UfoXjd1pLH-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Получить визуальные признаки и рекомендации&lt;/div&gt;&lt;div&gt;по улучшению фотографий&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="205" y="1100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
