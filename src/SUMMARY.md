@@ -5,6 +5,7 @@
 - [IDEF3](./IDEF3.md)
 - [DFD](./DFD.md)
 - [UML - usecase](./UML-usecase.md)
+- [UML - activity](./UML-activity.md)
 - [BPMN](./BPMN.md)
 - [Компонентная схема сервисов](./Comp_serv_arch.md)
 - [Мотивация выбора баз данных и механик коммуникаций](./ADR.md)
